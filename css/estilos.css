@@ -1,0 +1,106 @@
+body {
+    background-color:white;
+    color:black;
+    
+    margin:0 4px 0 0;
+    
+}
+
+p1 {color:#f37360;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+
+p2 {color:#21a4a4;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+
+p3 {color:#fac866;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+p{ 	font-family:Calibri;
+	font-size: 14px;
+}
+
+h2 {color: black;
+	font-family:Verdana;
+	font-size: 18px;
+	} 
+	
+div.d {
+  text-align: justify;
+} 
+
+div{
+	justify-content:center;
+	align-items: center;
+  } 
+
+#mapid {
+  height: 600px;
+  width: 600px;
+  display: center;
+}
+
+
+.column {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* <-- Estilos para la leyenda de Leaflet-choropleth --> */
+	
+	.legend {
+		color: #555;
+		padding: 6px 8px;
+		font: 12px Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+	}
+	.legend ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		clear: both;
+	}
+	.legend li {
+		display: inline-block;
+		width: 30px;
+		height: 22px;
+	}
+	.legend .min {
+		float: left;
+		padding-bottom: 5px;
+	}
+	.legend .max {
+		float: right;
+	}
+	
+.estiloIconos {
+	color: black;
+}
+
+.estiloIconos1 {
+	color: white;
+}
+/* #f37360 rojo*/
+
+/* #21a4a4 azul  */
+
+/* #fac866 amarillo  */
